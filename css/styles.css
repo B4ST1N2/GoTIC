@@ -103,3 +103,95 @@ section#talentos-jovenes img {
     height: auto;
     border-radius: 10px;
 }
+
+/* Estilo general de la franja de eventos */
+.events-section {
+  background-color: #f3f4f6; /* Fondo claro */
+  color: #333; /* Texto oscuro */
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Estilo del título principal */
+.events-header h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #001C4F; /* Azul oscuro */
+}
+
+/* Contenedor de los bloques de eventos */
+/* ESTA PARTE CONTIENE LOS ESTILOS DEL FOOTER */
+footer {
+  background-color: #001C4F;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Diseño de las secciones del footer */
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Bloques individuales de eventos */
+.event-block {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 45%; /* Ancho flexible */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de los subtítulos */
+.event-block h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #001C4F;
+}
+
+/* Estilo del texto descriptivo */
+.event-block p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+  .event-block {
+    width: 100%; /* Ocupa todo el ancho en pantallas pequeñas */
+  }
+
+/* Títulos de las secciones */
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Enlaces a redes sociales */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+/* Contacto */
+.contact-section p {
+  margin: 5px 0;
+}
