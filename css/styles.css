@@ -76,3 +76,48 @@ a {
     -webkit-text-fill-color: transparent;
 }
 
+/* ESTA PARTE CONTIENE LOS ESTILOS DEL FOOTER */
+footer {
+  background-color: #001C4F;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Diseño de las secciones del footer */
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Títulos de las secciones */
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Enlaces a redes sociales */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+/* Contacto */
+.contact-section p {
+  margin: 5px 0;
+}
