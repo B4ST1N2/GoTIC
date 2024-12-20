@@ -76,6 +76,33 @@ a {
     -webkit-text-fill-color: transparent;
 }
 
+section#talentos-jovenes {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section#talentos-jovenes h2 {
+    color: #4a90e2;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+section#talentos-jovenes p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+section#talentos-jovenes img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
 
 /* Estilo general de la franja de eventos */
 .events-section {
