@@ -1,0 +1,24 @@
+/* *Variables */
+:root{
+    
+}
+
+html {
+    box-sizing: border-box; /*No modifica el tamaño del elemento si cambiamos un with y un padding*/
+    font-size: 62.5%; /* ! 1REM = 10px */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2; /*Interlineado del txto*/
+}
+
+/* *Globales */
+a {
+    text-decoration: none; /*Eliminar la linea de los a*/
+    color: black;
+}
