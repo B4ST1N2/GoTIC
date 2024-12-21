@@ -112,11 +112,11 @@ img {
   border-radius: 5px;
   display: inline-block;
   margin-top: 10px;
-
 }
 
 .image-link:hover {
   transform: scale(1.1);
+
 }
 
 section#talentos-jovenes {
