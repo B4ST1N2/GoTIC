@@ -83,12 +83,14 @@ img {
 
 .img {
   width: 100%;
-  height: 550px; /* Ajusta esta altura según tus necesidades */
+  height: 570px; /* Ajusta esta altura según tus necesidades */
   object-fit: cover;
 }
 
 .image-section {
   position: relative;
+  border-top: solid 2px var(--light-blue);
+
 }
 
 .image-text {
